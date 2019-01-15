@@ -1,0 +1,20 @@
+Problem 1
+var numChildren = 2;
+var partnerName = "Nora";
+var geographicLocation = "San Diego";
+var jobTitel = " WebDeveloper";
+console.log(" After 2 years you will be a" + jobTitel + " in " + geographicLocation + " and " + partnerName + " will be your partner " + "and you will have " + numChildren + " adorable kids");
+
+Problem 2
+var currentYear = 2019;
+var birthYear = 1988;
+var age = currentYear - birthYear ;
+console.log (" They are either " + age + " OR " + (age - 1));
+
+
+Problem 3
+var currentAge = 30;
+var maxAge = 80;
+var amountDay = 3;
+var totalAmount = (maxAge - currentAge) * ( amountDay * 3);
+console.log( "You will need" + totalAmount + " to last you until the ripe old age of " + maxAge );
